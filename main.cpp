@@ -5,10 +5,10 @@
 int main(int argc, char **argv)
 {
   //Creating a Pet instance using Overloaded Constructor
-  Pet *pet1 = new Pet("Jeff", "Dog", 500, 57.8);
+  Pet* pet1 = new Pet("Jeff", "Dog", 500, 57.8);
 
   //Creating a Pet instance using Mutators
-  Pet *pet2 = new Pet();
+  Pet* pet2 = new Pet();
   pet2->setName("Stinker");
   pet2->setType("Cat");
   pet2->setAge(25);
