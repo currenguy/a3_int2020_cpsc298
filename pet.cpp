@@ -66,9 +66,9 @@ double Pet::getWeight() const
 void Pet::print() const
 {
   cout << "---------------" << endl;
-  cout << "NAME: " << this->m_name << endl;
-  cout << "TYPE: " << this->m_type << endl;
-  cout << "AGE: " << this->m_age << endl;
-  cout << "WEIGHT: " << this->m_weight << endl;
+  cout << "NAME: " << this->getName() << endl;
+  cout << "TYPE: " << this->getType() << endl;
+  cout << "AGE: " << this->getAge() << endl;
+  cout << "WEIGHT: " << this->getWeight() << endl;
   cout << "---------------" << endl << endl;
 }
